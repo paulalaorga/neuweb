@@ -1,0 +1,50 @@
+.Header {
+    height: 182px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: #333;
+    border: #333 1px solid;
+}
+.Header-logo {
+    height: 30%;
+    margin-left: 20px;
+    align-self: center;
+}
+
+.Title {
+    font-size: 6em;
+    color: #333;
+    text-align: center;
+    margin: -22px;
+    font-weight: 500;
+}
+
+.Title h1 {
+    position: absolute;
+    bottom: 0;
+   
+}
+
+.Header-menu {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    align-self: center;
+}
+
+.Header-menu div {
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: -1.5px;
+}
+
+.Header-menu div:hover {
+    color: rgb(214, 47, 47);
+}
