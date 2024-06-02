@@ -6,6 +6,7 @@
     justify-content: space-between;
     color: #333;
     border: #333 1px solid;
+        
 }
 .Header-logo {
     height: 30%;
@@ -46,5 +47,5 @@
 }
 
 .Header-menu div:hover {
-    color: rgb(214, 47, 47);
+    color: #d62f2f;
 }
