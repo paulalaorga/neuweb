@@ -1,12 +1,14 @@
 import './App.css';
-import Desktop from './Desktop.jsx';
+import Header from './Header';
+import Cards from './Cards';
 
 
 
 function App() {
   return (
     <div className="App">
-     <Desktop />
+      <Header />
+      <Cards />
     </div>
   );
 }
