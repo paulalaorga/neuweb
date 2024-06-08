@@ -1,21 +1,28 @@
 import React from 'react';
 import './Cards.css';
+import hug from './img/hug.png';
+import proactive from './img/proactive.png';
+import stretch from './img/stretch.png';
+
 
 export default function Cards() {
 
     return (
 <div className="Cards-container">
         <div className="Card">
-          <h2>Projects</h2>
-          <p>Check out my projects</p>
+          <img src={hug} alt='hug' />
+          <p>noun.</p>
+          <h2>web developer, product designer</h2>
         </div>
         <div className="Card">
-          <h2>Skills</h2>
-          <p>Check out my skills</p>
+          <img src={proactive} alt='proactive' />
+          <p>adj.</p>
+          <h2>proactive, collaborative, anticipative </h2>
         </div>
         <div className="Card">
-          <h2>Contact</h2>
-          <p>Get in touch</p>
+          <img src={stretch} alt='stretch' />
+          <p>verb.</p>
+          <h2>adapt, create, push, advance</h2>
         </div>
       </div>
 );

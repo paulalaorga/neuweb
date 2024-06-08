@@ -1,14 +1,11 @@
 import './App.css';
-import Header from './Header';
-import Cards from './Cards';
-
+import HeroPage from './HeroPage';
 
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Cards />
+   <HeroPage />
     </div>
   );
 }
